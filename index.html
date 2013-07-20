@@ -7,10 +7,27 @@
 <meta name="viewport" content="width=device-width">
 <link rel="stylesheet" href="assets/css/screen.css">
 <script type="text/javascript" src="assets/js/vendor/angular.js"></script>
+<script type="text/javascript" src="assets/js/app.js"></script>
 </head>
 <body ng-app="ResumeApp">
-	<div class="main" ng-view>
-
+	<div class="main">
+		<header>
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Projects</a></li>
+					<li><a href="#">Another Thing</a></li>
+					<li><a href="#">More Thing</a></li>
+				</ul>
+			</nav>
+		</header>
+		<ng-view></ng-view>
+		<aside>
+			<header>
+				<h3>Recent Tweets</h3>
+			</header>
+		</aside>
+		<footer>&copy; 2013 - Phillip Jackson</footer>
 	</div>
 	<script src="assets/js/vendor/jquery.js"></script>
 </body>
