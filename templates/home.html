@@ -1,5 +1,22 @@
 <div class="content">
 	<article>
-		<p>So, a little about myself is in order I would suspect? As you may have already noticed, my name is Phillip Jackson. I live in the small town in northeast Mississippi of Corinth. Not form here originally, but imported from the Mississippi Delta town of Greenville. </p>
+		<p>My name is Phillip Jackson. This project is my attempt at a web based resume that hopefully will reflect the things that I have taught myself over the last few years of developing as a hobby. It is and will be a on going work-in-progress for some time I believe. But also one that you and I can track, since I have this project hosted on my <a href="https://github.com/unisys12/Resume">Github</a> account. I am doing it this way, not just because I am currently teaching myself Git from the command line, but to showcase that I am doing most all of this on my own. No fancy frameworks, packages or any of that fancy stuff that makes web development so easy these days. Just to get it out there, what I am using is as follows: </p>
+
+		<h5>Libraries Used</h5>
+		<ul>
+			<li ng-repeat="lib in libs">
+				<a href=" {{ lib.url }} ">{{ lib.name }}</a> - version: {{ lib.ver }}
+			</li>
+		</ul>
+
+		<h5>Tools Used</h5>
+		<ul>
+			<li ng-repeat="tool in tools">
+				<a href=" {{ tool.url }} ">{{ tool.name }}</a> - version: {{ tool.ver }}
+			</li>
+		</ul>
+
+		<p></p>
+
 	</article>
 </div>
