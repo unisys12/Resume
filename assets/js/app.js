@@ -5,8 +5,8 @@ angular.module('ResumeApp', []).
 		$locationProvider.html5Mode(true);
 		$routeProvider.
 		when('/Resume', { templateUrl: 'resume/templates/home.html', controller: 'resumeController' }).
-		when('/Resume/About/', { templateUrl: 'resume/templates/about.html', controller: 'aboutController' }).
-		when('/Resume/Projects/', { templateUrl: 'resume/templates/projects.html', controller: 'projectsController' }).
+		when('/Resume/About/', { templateUrl: '/resume/templates/about.html', controller: 'aboutController' }).
+		when('/Resume/Projects/', { templateUrl: '/resume/templates/projects.html', controller: 'projectsController' }).
 		otherwise({redirectTo: '/Resume'});
 	});
 
