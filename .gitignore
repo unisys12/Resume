@@ -187,5 +187,6 @@ $RECYCLE.BIN/
 #############
 
 # Sass Files
+.sass-cache/
 /assets/.sass-cache/
 /assets/sass
