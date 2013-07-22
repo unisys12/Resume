@@ -488,14 +488,23 @@ nav li:last-child {
 /* line 1, ../sass/_deck.scss */
 .deck {
   float: right;
-  max-width: 33.33333%;
-  position: absolute;
-  top: 10em;
-  left: 60.25em;
-  margin: 0 auto;
+  max-width: 43.33333%;
+  position: relative;
+  bottom: 48em;
+  left: 0;
+}
+/* line 8, ../sass/_deck.scss */
+.deck h3 {
+  margin: auto;
+  position: relative;
+  text-decoration: underline;
 }
 
 /* line 1, ../sass/_content.scss */
 .content {
   max-width: 66.66667%;
+}
+/* line 4, ../sass/_content.scss */
+.content p {
+  text-align: justify;
 }
