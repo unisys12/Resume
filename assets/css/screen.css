@@ -418,54 +418,84 @@ table {
   border-spacing: 0;
 }
 
+/* line 1, ../sass/_main.scss */
+* {
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+}
+
+/* line 5, ../sass/_main.scss */
+.main {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 75%;
+}
+
 /* Header & Navigation Styling
  * =========================== */
 /* line 4, ../sass/_header.scss */
 header {
   max-width: 100%;
-  padding: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 4em;
   background-color: rgba(0, 0, 255, 0.2);
 }
-/* line 9, ../sass/_header.scss */
+/* line 12, ../sass/_header.scss */
 header .contact {
   width: 50%;
 }
-/* line 12, ../sass/_header.scss */
+/* line 15, ../sass/_header.scss */
 header .contact li {
   list-style: none;
 }
-/* line 17, ../sass/_header.scss */
+/* line 20, ../sass/_header.scss */
 header .info {
   font-size: 75%;
 }
 
-/* line 22, ../sass/_header.scss */
+/* line 25, ../sass/_header.scss */
 nav {
-  max-width: 30%;
+  max-width: 43%;
   background-color: rgba(0, 0, 255, 0.2);
-  padding: .025em 0;
   float: right;
   position: relative;
   top: -5.5em;
   border-radius: .5em;
   border: 2px solid rgba(0, 0, 0, 0.2);
 }
-/* line 32, ../sass/_header.scss */
+/* line 34, ../sass/_header.scss */
 nav li {
   display: inline;
   list-style: none;
   padding: .5em;
 }
-/* line 36, ../sass/_header.scss */
+/* line 38, ../sass/_header.scss */
 nav li a {
   text-decoration: none;
   color: #333;
 }
-/* line 42, ../sass/_header.scss */
+/* line 44, ../sass/_header.scss */
 nav li:first-child {
   padding-left: 0;
 }
-/* line 45, ../sass/_header.scss */
+/* line 47, ../sass/_header.scss */
 nav li:last-child {
   padding-right: 2em;
+}
+
+/* line 1, ../sass/_deck.scss */
+.deck {
+  float: right;
+  max-width: 33.33333%;
+  position: absolute;
+  top: 10em;
+  left: 60.25em;
+  margin: 0 auto;
+}
+
+/* line 1, ../sass/_content.scss */
+.content {
+  max-width: 66.66667%;
 }
